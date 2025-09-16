@@ -1,0 +1,42 @@
+INSERT INTO Aula (id_aula, nombre_aula) VALUES
+(NULL, "MAGNA"),
+(NULL, "AMERICA"),
+(NULL, "AFRICA"),
+(NULL, "EUROPA"),
+(NULL, "ASIA"),
+(NULL, "VIRTUAL");
+
+SELECT * FROM Aula;
+
+INSERT INTO Curso (id_curso, nombre_curso, carga_horaria_curso) VALUES
+(NULL, "AUXILIAR CONTABLE", 350),
+(NULL, "COMMUNITY MANAGER", 175),
+(NULL, "AUXILIAR DE FARMACIA", 350),
+(NULL, "DISEÑO DE PÁGINAS WEB", 350),
+(NULL, "MAQUILLAJE PROFESIONAL", 175),
+(NULL, "LIQUIDACIÓN DE SUELDOS", 280),
+(NULL, "AYUDANTE LABORATORIO CLINICO", 350),
+(NULL, "SECRETARIADO MÉDICO", 280),
+(NULL, "HIGIENISTA BUCODENTAL", 350),
+(NULL, "ESTÉTICA CORPORAL", 280);
+
+SELECT * FROM Curso;
+
+INSERT INTO Forma_de_pago (id_forma_de_pago, nombre_forma_de_pago) VALUES
+(NULL, "EFECTIVO"),
+(NULL, "TRANSFERENCIA"),
+(NULL, "TARJETA DE DÉBITO"),
+(NULL, "TARJETA DE CRÉDITO");
+
+SELECT * FROM Forma_de_pago;
+
+INSERT INTO Género (id_genero, nombre_genero) VALUES
+(NULL, "FEMENINO"),
+(NULL, "MASCULINO"),
+(NULL, "NO BINARIO");
+
+SELECT * FROM Género;
+ 
+INSERT INTO Modalidad_curso (id_modalidad, modalidad_curso) VALUES
+(NULL, "PRESENCIAL"),
+(NULL, "ON LINE");
