@@ -1,4 +1,4 @@
-// Función para mostrar el nombre completo del primer alumno que se matriculó en la Academia
+-- Función para mostrar el nombre completo del primer alumno que se matriculó en la Academia
 
 DELIMITER %%
 
@@ -28,7 +28,7 @@ select f_nombre_completo_primer_alumno ();
 select* from alumno;
 
 
-// Función para mostrar el total de ventas acumuladas
+-- Función para mostrar el total de ventas acumuladas
 
 DELIMITER %%
 
@@ -49,7 +49,7 @@ END
  SELECT f_ventas_acumuladas();
 
 
-// Procedimiento para visualizar los datos de los alumnos que hayan obtenido, por lo menos una vez, la calificación “10” en un examen
+-- Procedimiento para visualizar los datos de los alumnos que hayan obtenido, por lo menos una vez, la calificación “10” en un examen
 
 DELIMITER //
 
@@ -66,7 +66,7 @@ END
 CALL sp_alumnos_calificacion_sobresaliente();
 
 
-// Procedimiento para contar la cantidad de matrículas realizadas durante el año actual
+-- Procedimiento para contar la cantidad de matrículas realizadas durante el año actual
 
 DELIMITER //
 
@@ -83,7 +83,7 @@ END
 CALL sp_matriculas_año_actual ();
 
 
-// Trigger que almacena registros en una nueva tabla llamada “auditoria_carga_calificaciones” cada vez que se insertan nuevos registros en la tabla Examen
+-- Trigger que almacena registros en una nueva tabla llamada “auditoria_carga_calificaciones” cada vez que se insertan nuevos registros en la tabla Examen
 
 CREATE TABLE auditoria_carga_calificaciones
 (
@@ -108,7 +108,7 @@ select * from Examen;
 select * from auditoria_carga_calificaciones;
 
 
-// Trigger que almacena registros en una nueva tabla llamada “auditoria_carga_alumnos” cada vez que se insertan nuevos registros en la tabla Alumno
+-- Trigger que almacena registros en una nueva tabla llamada “auditoria_carga_alumnos” cada vez que se insertan nuevos registros en la tabla Alumno
 
 CREATE TABLE auditoria_carga_alumnos
 (
