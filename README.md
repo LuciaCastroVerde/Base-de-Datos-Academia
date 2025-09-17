@@ -60,7 +60,5 @@ Con la información de la base se desarrollaron informes en Excel para:
 
 ## 👤 Autor
 
-Proyecto desarrollado por **Lucía Castro** – [GitHub](https://github.com/LuciaCastroVerde)  
-
-Proyecto desarrollado por **Lucía Castro** – [GitHub](https://github.com/tu-usuario)  
+Proyecto desarrollado por **Lucía Castro** – [GitHub](https://github.com/LuciaCastroVerde)
 
